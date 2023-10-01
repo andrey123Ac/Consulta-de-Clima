@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima aqui!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="arquivo.js" defer></script>
+</head>
+
+<body>
+
+    <section class="selecaoPrincipal">
+
+
+
+        <h3 class="textoConsulteCidade">Cosulte de qualquer cidade</h3>
+
+        <div class="displayFlex margem ">
+
+            <input type="text" id="valo" placeholder="Digite o de uma cidade" class="input-Cidade">
+            <button type="submit" class="botãoBusca" id="botaoBsca"> <img src="img/lupa.png" alt="" height="20px"
+                    width="20px"></button>
+
+        </div>
+
+        <section class="selecaoDivisao">
+        </section>
+
+        <section class="area" id="area">
+
+
+            <section class="displayFlex">
+
+                <button class="botoesCidade" type="button" id="BotaoSaopaulo">São Paulo</button>
+                <button class="botoesCidade" type="button" id="Botaocampinas">Campinas</button>
+
+            </section>
+
+            <section class="displayFlex">
+
+                <button class="botoesCidade" type="button" id="BotaoSalvador">Salvador</button>
+                <button class="botoesCidade" type="button" id="BotaoRiodeJaneiro">Rio de Janeiro</button>
+
+            </section>
+
+            <section class="displayFlex">
+
+                <button class="botoesCidade" type="button" id="BotaoBeloHorizonte">Belo Horizonte</button>
+                <button class="botoesCidade" type="button" id="BotaoFortaleza">Fortaleza</button>
+
+            </section>
+
+            <section class="displayFlex">
+
+                <button class="botoesCidade" type="button" id="BotaoCuritiba">Curitiba</button>
+                <button class="botoesCidade" type="button" id="BotaoManaus">Manaus</button>
+
+            </section>
+
+           
+
+        </section>
+
+        <section id="area2" class="hide">
+
+            <section class="selecaoInformacoes">
+
+                <h1 class="textoCidade" id="cidade"><img src="img/localizacao.png" alt="" height="30px"
+                        width="30px">
+                   </h1>
+                <p class="temperatura" id="temperature"></p>
+                <p>
+                <section class="displayFlex" style="gap: 10px ;">
+
+                    <div id="nublado" class="textoCidade"></div>
+                    <div class="" id="imagemBandeira"></div>
+
+                </section>
+                </p>
+
+                <section class="displayFlex">
+
+                    <p class="humidade"><img src="img/gota-de-agua.png" alt="" height="20px" width="20px">
+                        <span id="humidade"></span>
+                    </p>
+
+                    <section class="selecaoDivisaoVertical"></section>
+
+                    <p class="textoVento"><img src="img/vento.png" alt="" height="20px" width="20px"> <span
+                            id="velocidadeVento"></span>km/h</p>
+
+                </section>
+            </section>
+
+        </section>
+
+
+        <section class="selecaoVoltar"  ><button class="botãoVoltar hide" type="button" id="botãoVoltar" >voltar</button></section>
+
+
+
+
+
+</body>
+
+</html>

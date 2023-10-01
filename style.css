@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(115, 115, 250);
+    color: white;
+}
+
+.selecaoPrincipal {
+    height: 500px;
+    width: 500px;
+    background-color: cadetblue;
+    box-shadow: black 0px 3px 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.displayFlex {
+    display: flex;
+    align-items: center;
+}
+
+.margem {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-Cidade {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px 0 0 10px;
+}
+
+.botãoBusca {
+    border-radius: 0 10px 10px 0;
+    height: 44px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.textoConsulteCidade {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.selecaoDivisao {
+    background-color: white;
+    height: 5px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.botoesCidade {
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.textoCidade {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.selecaoInformacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.temperatura {
+    font-size: 50px;
+}
+
+.humidade {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 5px;
+}
+
+.selecaoDivisaoVertical {
+    background-color: white;
+    width: 3px;
+    height: 30px;
+    margin: 10px;
+}
+
+.textoVento {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.aparecer {
+    display: flex;
+}
+
+.botãoVoltar {
+    width: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.selecaoVoltar {
+    width: 440px;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
