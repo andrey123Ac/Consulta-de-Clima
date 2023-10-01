@@ -165,6 +165,13 @@ Manaus.addEventListener('click', () => {
 });
 
 botaoVolta.addEventListener('click', () => {
+
+  cidade.innerText = "Não Encontrado"
+  temperatura.innerHTML =  "Não Encontrado"
+  Nublado.innerText =  "Não Encontrado"
+  humidad.innerText =  "Não Encontrado"
+  vento.innerText = "Não Encontrado"
+  
   area.classList.remove('hide');
   area2.classList.add('hide');
   botaoVolta.classList.add('hide');
