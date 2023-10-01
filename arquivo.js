@@ -62,6 +62,14 @@ const showWeatherData = async (city) => {
 botao.addEventListener('click', (e) => {
   e.preventDefault();
 
+
+  cidade.innerText = "Não Encontrado"
+  temperatura.innerHTML = "Digite Corretamente"
+  Nublado.innerText ="Não Encontrado"
+  humidad.innerText = "Não Encontrado"
+  vento.innerText = "Não Encontrado"
+
+
   let city = valor.value;
   showWeatherData(city)
 
@@ -165,16 +173,11 @@ Manaus.addEventListener('click', () => {
 });
 
 botaoVolta.addEventListener('click', () => {
-
-  cidade.innerText = "Não Encontrado"
-  temperatura.innerHTML =  "Não Encontrado"
-  Nublado.innerText =  "Não Encontrado"
-  humidad.innerText =  "Não Encontrado"
-  vento.innerText = "Não Encontrado"
-  
   area.classList.remove('hide');
   area2.classList.add('hide');
   botaoVolta.classList.add('hide');
+
+  
 });
 
 
